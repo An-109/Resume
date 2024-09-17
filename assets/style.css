@@ -1,0 +1,36 @@
+.holder{
+    display: flex;
+    height: 200px;
+    border: 2px solid black;
+    position: relative;
+    
+}
+.points{
+    display: flex;
+    flex-direction: row;
+    right: 0;
+    justify-content: end;
+    position: absolute;
+    font-size: 20px;
+}
+
+#exps:hover{
+    color: orange;
+    cursor: pointer;
+}
+#edu:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+#skill:hover{
+    color: green;
+    cursor: pointer;
+}
+h3{
+    margin: 5px;
+}
+#title{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
