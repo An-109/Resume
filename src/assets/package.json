@@ -1,0 +1,14 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "My resume",
+  "main": "index.js",
+  "scripts": {
+     "build": "npx tailwindcss -i ./css/input.css -o ./css/style.css --watch"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "''",
+  "license": "ISC"
+}
